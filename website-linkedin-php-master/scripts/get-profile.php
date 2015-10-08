@@ -6,8 +6,8 @@ http://opensource.org/licenses/MIT
 */
 
 //setup
-$api_key = "7754ivl86acd1t";
-$secret_key = "4LMxXeQLbOLgGd3E";
+$api_key = "your_api_key";
+$secret_key = "your_secret_key";
 $scope = "r_basicprofile";
 $redirect_uri = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
 $search = "/people/~:(picture-url,first-name,last-name,headline,location:(name),industry,public-profile-url,summary,positions:(title,company:(name,industry),start-date,end-date,is-current,summary),skills:(skill:(name)),projects:(name,url,description),educations:(school-name,degree,field-of-study,start-date,end-date,notes),languages:(language:(name),proficiency:(name)),volunteer:(volunteer-experiences:(role,organization:(name),description)))";
